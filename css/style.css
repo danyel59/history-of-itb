@@ -1,0 +1,284 @@
+/** CSS **/
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	height: 1940px;
+	width: 1800px;
+	background-color: #0076C0;
+}
+
+/** --------------------- Nav Bar / Page --------------------- **/
+.left {
+	float:left;
+	width: 25%;
+	height: 1080px;
+	font-size: 2.5em;
+}
+.center {
+	width: 50%;
+	height: 1080px;
+	font-size: 4em;
+}
+.right {
+	width: 25%;
+	height: 1080px;
+	font-size: 2.5em;
+}
+
+.left,
+.center,
+.right {
+  float: left;
+  height: 1080px;
+}
+
+h2 {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.tl {
+	padding-top: 75px;
+	padding-bottom: -75px;
+}
+.bl {
+	padding-top: 75px;
+	padding-bottom: -100px;
+}
+.cen {
+	padding-top: 400px;
+}
+.tr {
+	padding-top: 75px;
+	padding-bottom: -75px;
+}
+.br {
+	padding-top: 75px;
+}
+.lft {
+	width: 80%;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+.vr
+{
+  margin-left: 250px;
+  float: left;
+  display:inline;
+  height:960px;
+  width:1px;
+  border:1px inset;
+  margin:5px
+}
+.vr2
+{
+  margin-left: 250px;
+  float: right;
+  display:inline;
+  height:960px;
+  width:1px;
+  border:1px inset;
+  margin:5px
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+a.middle {
+	display: block;
+	width: 300px;
+	padding-right: 400px;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+    text-shadow: 5px 5px 30px #FEFFD4;
+}
+
+
+/** ------------------ End of Nav Bar / Page ------------------------- **/
+
+p.center {
+	text-align: center;
+}
+.scroll {
+	padding-top: 100px;
+}
+/** Fonts **/
+/**
+@font-face {
+font-family: "Goti";
+src: url("fonts/GotischeMissalschrift.tff");
+}
+@font-face {
+font-family: "rounded";
+src: url("fonts/rounded_line.tff");
+} **/
+
+
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+	transition-duration: 5s;
+}
+/**       --------------------------- Page Content --------------------------- **/
+
+.container {
+	width: 1800px;
+	height: 900px;
+	padding-top: 100px;
+}
+.left2 {
+	width: 50%;
+	height: 900px;
+	font-size: 2em;
+    float:left;
+	padding-left: 0px;
+}
+.right2 {
+	padding-left: 0px;
+	width: 50%;
+	height: 900px;
+	font-size: 2em;
+	float:right;
+}
+.vr3
+{
+  margin-left: 250px;
+  height:820px;
+  width:1px;
+  border:1px inset;
+  margin:5px;
+  padding-top: 50px;
+  float: left;
+}
+.scrollup {
+	float: right;
+	display: inline-block;
+}
+.lt {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.rt {
+	font-size: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+h1 {
+	margin: auto;
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	font-size: 36px;
+}
+.ri {
+	margin-top: 24px;
+	margin-left: 37px;
+	
+}
+.li {
+	margin-top: 12px;
+	margin-left: 37px;
+	
+}
+.footerleft {
+	width: 50%;
+	height: 100px;
+	font-size: 2em;
+    float:left;
+	padding-left: 0px;
+}
+.footerright {
+	padding-left: 0px;
+	width: 50%;
+	height: 100px;
+	font-size: 2em;
+	float:right;
+}
+.ft {
+	float: right;
+}
+.footer {
+	margin-top: 100px;
+	}
+.footer2 {
+	display: inline-block;
+    font-size: 24px;
+}
+.courses {
+	font-size: 12px;
+	text-align: center;
+}
+ul {
+	font-size: 20px;
+}
+.crs {
+	font-size: 26px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hcrs {
+	font-size: 30px;
+	text-align: center;
+}
+.crspic {
+	padding-left: 40px;
+}
+.location {
+	text-align: center;
+	font-size: 30px;
+}
+a.loc {
+	text-decoration: none;
+}
+.footercont {
+	clear: both;
+}
+.contact {
+	text-align: center;
+	padding-top: 20px;
+}
+.footerleft2 {
+	width: 50%;
+	height: 100px;
+	font-size: 2em;
+    float:left;
+	padding-left: 0px;
+}
+.footerright2 {
+	padding-left: 0px;
+	width: 50%;
+	height: 100px;
+	font-size: 2em;
+	float:right;
+}
+.pt {
+	margin-top: 20px;
+	margin-left: 90px;
+}
+.eco {
+	font-size: 24px;
+}
+.ecol {
+	margin-left: 50px;
+}
+.ecol2 {
+	margin-left: 50px;
+}

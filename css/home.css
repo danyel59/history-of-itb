@@ -1,0 +1,127 @@
+/** CSS **/
+
+body {
+	background: url('../images/bg.jpg');
+	position: fixed;
+	background-repeat: no-repeat;
+	height: 1080px;
+	width: 1920px;
+}
+
+/** --------------------- Nav Bar / Page --------------------- **/
+.left {
+	float:left;
+	width: 25%;
+	height: 1080px;
+	font-size: 2.5em;
+}
+.center {
+	width: 50%;
+	height: 1080px;
+	font-size: 4em;
+}
+.right {
+	width: 25%;
+	height: 1080px;
+	font-size: 2.5em;
+}
+
+.left,
+.center,
+.right {
+  float: left;
+  height: 1080px;
+}
+
+h2 {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.tl {
+	padding-top: 75px;
+	padding-bottom: -75px;
+}
+.bl {
+	padding-top: 75px;
+	padding-bottom: -100px;
+}
+.cen {
+	padding-top: 400px;
+}
+.tr {
+	padding-top: 75px;
+	padding-bottom: -75px;
+}
+.br {
+	padding-top: 75px;
+}
+.lft {
+	width: 80%;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+.vr
+{
+  margin-left: 250px;
+  float: left;
+  display:inline;
+  height:1620px;
+  width:1px;
+  border:1px inset;
+  margin:5px
+}
+.vr2
+{
+  margin-left: 250px;
+  float: right;
+  display:inline;
+  height:1620px;
+  width:1px;
+  border:1px inset;
+  margin:5px
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+a.middle {
+	display: block;
+	width: 300px;
+	padding-right: 400px;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+    text-shadow: 5px 5px 30px #FEFFD4;
+}
+
+
+/** ------------------ End of Nav Bar / Page ------------------------- **/
+
+p.center {
+	text-align: center;
+}
+.scroll {
+	padding-top: 100px;
+}
+/** Fonts **/
+/**
+@font-face {
+font-family: "Goti";
+src: url("fonts/GotischeMissalschrift.tff");
+}
+@font-face {
+font-family: "Rounded";
+src: url("fonts/rounded_line.tff");
+} 
+**/
